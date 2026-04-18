@@ -71,7 +71,7 @@ const Navbar = ({ user: propUser, onLogout }) => {
           <div className={navbarStyles.logoImage}>
             <img src={img1} alt="logo" />
           </div>
-          <span className={navbarStyles.logoText}>Expense Tracker</span>
+          <span className={navbarStyles.logoText}>ruFlow</span>
         </div>
 
         {/* if the user is present */}
@@ -87,7 +87,7 @@ const Navbar = ({ user: propUser, onLogout }) => {
               <div className={navbarStyles.userTextContainer}>
                 <p className={navbarStyles.userName}>{user?.name || "User"}</p>
                 <p className={navbarStyles.userEmail}>
-                  {user?.email || "user@expensetracker.com"}
+                  {user?.email || "user@ruFlow.com"}
                 </p>
               </div>
 
@@ -108,7 +108,7 @@ const Navbar = ({ user: propUser, onLogout }) => {
                         {user?.name || "User"}
                       </div>
                       <div className={navbarStyles.dropdownEmail}>
-                        {user?.email || "user@expensetracker.com"}
+                        {user?.email || "user@ruFlow.com"}
                       </div>
                     </div>
                   </div>

@@ -131,7 +131,7 @@ const Signup = ({ API_URL = "http://localhost:4000", onSignup }) => {
           </div>
           <h1 className={signupStyles.headerTitle}>Create Account</h1>
           <p className={signupStyles.headerSubtitle}>
-            Join ExpenseTracker to manage your finances
+            Join ruFlow to manage your finances
           </p>
         </div>
 
