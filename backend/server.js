@@ -10,10 +10,16 @@ import expenseRouter from "./routes/expenseRoute.js";
 import dashboardRouter from "./routes/dashboardRoute.js";
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 // MIDDLEWARES
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://:5173", "https://expense-tracker-f3d2.onrender.com/"],
+    credentials: true,
+  }),
+);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -31,5 +37,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server Started on http://localhost:${port}`);
+  console.log(`Server Started on port ${port}`);
 });
