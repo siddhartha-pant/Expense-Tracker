@@ -25,7 +25,7 @@ import {
 import axios from "axios";
 import { Outlet } from "react-router-dom";
 
-const API_BASE = "https://expense-tracker-f3d2.onrender.com/";
+const API_BASE = "https://expense-tracker-f3d2.onrender.com/api";
 const CATEGORY_ICONS = {
   Food: <Utensils className="w-4 h-4" />,
   Housing: <Home className="w-4 h-4" />,

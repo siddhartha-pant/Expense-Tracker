@@ -30,7 +30,7 @@ import { getTimeFrameRange, generateChartPoints } from "../components/Helpers";
 import { CATEGORY_ICONS } from "../assets/color";
 import { expensePageStyles as styles } from "../assets/dummyStyles";
 
-const API_BASE = "https://expense-tracker-f3d2.onrender.com/";
+const API_BASE = "https://expense-tracker-f3d2.onrender.com/api";
 
 /**
  * Helper: convert date (or datetime) to ISO by attaching client current time

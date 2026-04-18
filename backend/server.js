@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000;
 // MIDDLEWARES
 app.use(
   cors({
-    origin: ["http://:5173", "https://expense-tracker-f3d2.onrender.com/"],
+    origin: ["http://:5173", "https://expense-tracker-f3d2.onrender.com/api"],
     credentials: true,
   }),
 );
