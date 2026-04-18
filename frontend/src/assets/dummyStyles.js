@@ -485,12 +485,8 @@ export const navbarStyles = {
     "flex items-center justify-between px-4 py-3 md:px-8 max-w-7xl mx-auto",
 
   // Logo styles
-  logoContainer: "flex items-center gap-0 cursor-pointer",
-  logoImage: "w-15 h-15 rounded-xl overflow-hidden",
-
-  // Text styles
-  logoText:
-    "lg:text-3xl md:text-3xl text-2xl text-gray-900 font-[550] lobster-regular",
+  logoContainer: "w-14 h-14 object-contain",
+  logoImage: " mt-2 object-contain scale-[4] ",
 
   // User profile styles
   userContainer: "relative",

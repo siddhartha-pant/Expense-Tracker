@@ -71,7 +71,6 @@ const Navbar = ({ user: propUser, onLogout }) => {
           <div className={navbarStyles.logoImage}>
             <img src={img1} alt="logo" />
           </div>
-          <span className={navbarStyles.logoText}>ruFlow</span>
         </div>
 
         {/* if the user is present */}
